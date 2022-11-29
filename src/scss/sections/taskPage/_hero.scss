@@ -1,0 +1,123 @@
+.pickup__hero {
+  max-width: 1440px;
+  margin: 57px auto 64px;
+  padding: 0 32px;
+
+  @media (max-width: 999px) {
+    margin: 0 auto 48px;
+    padding: 0 16px;
+  }
+
+  .pickup__hero-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: var(--black);
+    padding-left: 16px;
+    border-left: 5px solid var(--red-400);
+    margin: 0 0 16px;
+    display: block;
+
+    @media (max-width: 768px) {
+      display: none;
+    }
+  }
+
+  .pickup_bg_image_box {
+    width: 100%;
+    height: 774px;
+    background: #5f26d9;
+    border-radius: 14.33px;
+    position: relative;
+    overflow: hidden;
+
+    @media (max-width: 499px) {
+      height: 774px;
+      border-radius: 0;
+    }
+
+    @media (min-width: 499px) and (max-width: 999px) {
+      height: 868px;
+      border-radius: 0;
+    }
+
+    .hero_exp_pickup_img {
+      width: 358px;
+      height: auto;
+      position: absolute;
+      top: 108.22px;
+      left: 106.07px;
+
+      @media (max-width: 999px) {
+        width: 215.2px;
+        top: 26px;
+        left: 16px;
+      }
+    }
+
+    .hero_user_box {
+      width: 136.4px;
+      height: 134.2px;
+      object-fit: contain;
+      position: absolute;
+      left: 106.07px;
+      bottom: 71.48px;
+
+      @media (max-width: 999px) {
+        left: 16px;
+        bottom: inherit;
+        top: 292px;
+      }
+
+      @media (max-width: 480px) {
+        width: 90px;
+        height: auto;
+        top: 340px;
+      }
+    }
+
+    .hero_public_order {
+      height: auto;
+      position: absolute;
+      bottom: 0;
+      right: 57px;
+      z-index: 2;
+      width: 753px;
+
+      @media (min-width: 805px) and (max-width: 1150px) {
+        width: 600px;
+      }
+      @media (max-width: 805px) {
+        width: auto;
+        right: 16px;
+      }
+    }
+
+    .pickup-hero-text {
+      font-weight: 400;
+      font-size: 22.93px;
+      line-height: 30.01px;
+      letter-spacing: 0.01em;
+      color: #ffffff;
+      margin: 0;
+      max-width: 321.7px;
+      height: auto;
+      position: absolute;
+      left: 106.07px;
+      bottom: 281.05px;
+
+      @media (max-width: 999px) {
+        left: 16px;
+        top: 178px;
+        bottom: auto;
+        max-width: 464px;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+        letter-spacing: 0.01em;
+      }
+    }
+  }
+}
